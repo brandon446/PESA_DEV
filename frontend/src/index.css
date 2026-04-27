@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-pesapal-blue { background-color: #0047ab; }
+.text-pesapal-blue { color: #0047ab; }
+.bg-pesapal-red { background-color: #d91f26; }
+.text-pesapal-red { color: #d91f26; }
