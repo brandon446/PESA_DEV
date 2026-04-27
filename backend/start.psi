@@ -1,0 +1,7 @@
+# start.ps1
+
+# Activate virtual environment
+.\env\Scripts\activate
+
+# Start the FastAPI server on host 0.0.0.0 and port 8080
+uvicorn main:app --reload --host 0.0.0.0 --port 8080
